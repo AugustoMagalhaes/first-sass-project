@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(247, 247, 247);
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background: rgb(44, 44, 44);
+}
+.container h1 {
+  color: rgb(215, 213, 225);
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

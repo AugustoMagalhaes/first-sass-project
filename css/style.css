@@ -1,0 +1,15 @@
+body {
+  background-color: #CCC;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background: lightblue;
+}
+.container h1 {
+  color: #000;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

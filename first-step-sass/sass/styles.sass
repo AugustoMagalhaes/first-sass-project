@@ -39,7 +39,7 @@ a
   padding: 200px
   background-color: #ccc
 
-.btn, .btn_sucess
+%btn
   padding: 10px 20px
   border: 1px solid blue
   border-radius: 5px
@@ -51,6 +51,9 @@ a
   &:hover
     background-color: transparent
     color: blue
+
+.btn
+  @extend %btn
 
   &--success
     background-color: green
@@ -65,3 +68,17 @@ a
 
     &:hover
       color: red
+
+%base-title-style
+  border-bottom: 2px dotted red
+  padding: 10px
+  background-color: yellow
+  text-align: center
+
+.title
+  font-size: 30px
+  @extend %base-title-style
+
+.sub-title
+  font-size: 25px
+  @extend %base-title-style

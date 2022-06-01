@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.container {
+  background: #ddd;
+  padding: 20px;
+}
+.container #title {
+  background-color: #111;
+  color: #f1f1f1;
+  padding: 15px;
+  text-align: center;
+}
+
+.container-bottom {
+  background-color: #ddd;
+  text-align: center;
+  padding: 50px;
+}
+
+/* é incluso no CSS */ 
+/*! Incluso no CSS, até no modo de compreensão !*/ 
+
+/*# sourceMappingURL=styles.css.map */

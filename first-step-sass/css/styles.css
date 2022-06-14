@@ -6,4 +6,29 @@
   margin: 10px;
 }
 
+.p-esp {
+  color: red;
+  background-color: yellow;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.esp-menor {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid green;
+}
+
+.esp-medio {
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid yellow;
+}
+
+.esp-maior {
+  padding: 25px;
+  margin: 25px;
+  border: 1px solid red;
+}
+
 /*# sourceMappingURL=styles.css.map */

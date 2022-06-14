@@ -1,15 +1,9 @@
-body {
-  background-color: rgb(247, 247, 247);
-  height: 100%;
-  width: 100%;
-}
-
-.container {
-  background: rgb(44, 44, 44);
-}
-.container h1 {
-  color: rgb(215, 213, 225);
-  text-align: center;
+.btn {
+  background-color: #f29f9f;
+  color: #000;
+  padding: 12px 10px;
+  border-radius: 5px;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

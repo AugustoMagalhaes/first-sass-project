@@ -16,19 +16,19 @@
 .esp-menor {
   padding: 10px;
   margin: 10px;
-  border: 1px solid green;
+  border: 1px solid red;
 }
 
 .esp-medio {
   padding: 15px;
   margin: 15px;
-  border: 1px solid yellow;
+  border: 2px dotted green;
 }
 
 .esp-maior {
   padding: 25px;
   margin: 25px;
-  border: 1px solid red;
+  border: 3px double blue;
 }
 
 /*# sourceMappingURL=styles.css.map */

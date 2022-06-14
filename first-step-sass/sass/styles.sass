@@ -6,10 +6,13 @@
   @include special
 
 .esp-menor
-  @include espaçamento(10px, 10px, green)
+  @include espaçamento(10px, 10px)
+  @include custom-border(solid, red)
 
 .esp-medio
-  @include espaçamento(15px, 15px, yellow)
+  @include espaçamento(15px, 15px)
+  @include custom-border(dotted, green, 2px)
 
 .esp-maior
-  @include espaçamento(25px, 25px, red)
+  @include espaçamento(25px, 25px)
+  @include custom-border(double, blue, 3px)

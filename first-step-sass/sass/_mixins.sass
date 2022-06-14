@@ -4,7 +4,9 @@
   padding: 10px
   border: 1px solid red
 
-@mixin espaçamento($p, $m, $bd-color)
+@mixin espaçamento($p, $m)
   padding: $p
   margin: $m
-  border: 1px solid $bd-color
+
+@mixin custom-border($style, $color, $width: 1px)
+  border: $width $style $color

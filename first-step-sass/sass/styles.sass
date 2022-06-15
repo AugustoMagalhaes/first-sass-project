@@ -1,6 +1,7 @@
 @import 'variables'
 @import 'buttons'
 @import 'mixins'
+@import 'plugins'
 
 .p-esp
   @include special
@@ -9,11 +10,13 @@
   @include espaçamento(10px, 10px)
   @include custom-border(solid, red)
   @include colors
+  @extend %font-pattern
 
 .esp-medio
   @include espaçamento(15px, 15px)
   @include custom-border(dotted, green, 2px)
   @include colors($background: #a21)
+  @extend %font-pattern
 
 .esp-maior
   @include espaçamento(25px, 25px)

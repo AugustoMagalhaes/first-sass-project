@@ -42,4 +42,14 @@
   border: 3px double blue;
 }
 
+.fonte-pequena {
+  font-size: 5px;
+  color: blue;
+}
+
+.fonte-grande {
+  font-size: 25px;
+  color: red;
+}
+
 /*# sourceMappingURL=styles.css.map */

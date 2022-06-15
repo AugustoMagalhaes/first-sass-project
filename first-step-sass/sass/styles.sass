@@ -2,6 +2,7 @@
 @import 'buttons'
 @import 'mixins'
 @import 'plugins'
+@import 'functions'
 
 .p-esp
   @include special
@@ -21,3 +22,11 @@
 .esp-maior
   @include espaçamento(25px, 25px)
   @include custom-border(double, blue, 3px)
+
+.fonte-pequena
+  font-size: 5px
+  color: text-color(5)
+
+.fonte-grande
+  font-size: 25px
+  color: text-color(25)
